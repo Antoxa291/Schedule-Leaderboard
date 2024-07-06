@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .main-nav {
+    @apply h-[60px] px-[40px] bg-[#025FEB] text-white shadow flex items-center gap-x-[40px] text-[16px];
+  }
+
+  .error-img {
+    @apply pt-[100px] mx-auto;
+  }
+
+  .page-header {
+    @apply pt-[60px] pb-[20px] mx-auto text-[24px] text-[#182C62] font-[600];
+  }
+}

@@ -32,6 +32,10 @@ The following command will run the SPA in local dev server:
 
 > **npm** start
 
+The following command will run TailwindCss watch on class changes:
+
+> npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
 The application will be available at http://localhost:3000 and by default you should see a welcome message there.
 
 ## Production Build
